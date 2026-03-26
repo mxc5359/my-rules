@@ -8,7 +8,6 @@ jobs:
 build:
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout
     uses: actions/checkout@v4
@@ -32,4 +31,3 @@ steps:
       git add *.mrs
       git commit -m "update mrs" || echo "no changes"
       git push
-```
